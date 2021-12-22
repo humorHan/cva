@@ -1,0 +1,48 @@
+{
+  "name": "@humorhan/cva",
+  "version": "0.0.1",
+  "description": "create vue app",
+  "main": "index.js",
+  "bin": {
+    "cva": "bin/cva.js",
+    "cva-tools": "bin/cva-tools.js"
+  },
+  "author": "humorHan",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-export-default-from": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.16.5",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/runtime-corejs3": "^7.15.3",
+    "@vue/compiler-sfc": "^3.2.26",
+    "babel-loader": "^8.2.2",
+    "chalk": "^4.1.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "commander": "^8.1.0",
+    "core-js": "^3.16.4",
+    "css-loader": "^6.2.0",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "execa": "^5.1.1",
+    "html-webpack-plugin": "^5.3.2",
+    "inquirer": "^8.2.0",
+    "mini-css-extract-plugin": "^2.2.0",
+    "ora": "5.4.1",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "resolve-url-loader": "^5.0.0-beta.1",
+    "sass": "1.45.1",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.2.1",
+    "terser-webpack-plugin": "^5.3.0",
+    "vue-loader": "16.8.3",
+    "vue-loader-v15": "npm:vue-loader@15.9.8",
+    "webpack": "^5.65.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "engines": {
+    "node": "^12.20.0 || >=14.0.0"
+  }
+}
