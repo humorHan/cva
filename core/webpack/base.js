@@ -1,6 +1,6 @@
 const webpack = require('webpack');
 const utils = require('./lib/utils.js');
-const VueLoaderPlugin = utils.isVue3() ? require('vue-loader/lib/plugin') : require('vue-loader-v15').VueLoaderPlugin;
+const VueLoaderPlugin = require(utils.isVue3() ? 'vue-loader' : 'vue-loader-v15').VueLoaderPlugin;
 
 module.exports = {
   // entry: {
@@ -30,12 +30,15 @@ module.exports = {
         }
       }
     }, {
-      test: /\.js$/,
+      test: /\.m?js$/,
       exclude: [
         /\bcore-js\b/,
         /\bwebpack\/buildin\b/,
         /\bvue-loader\b/
       ],
+      resolve: {
+        fullySpecified: false
+      },
       use: {
         loader: 'babel-loader',
       }

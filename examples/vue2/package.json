@@ -1,0 +1,35 @@
+{
+  "name": "cva-vue2-template",
+  "version": "0.0.1",
+  "description": "cva-vue2-template",
+  "main": "./src/index.js",
+  "scripts": {
+    "serve": "cva serve",
+    "build": "cva build"
+  },
+  "keywords": [
+    "cva-vue2-template",
+    "webpack5",
+    "vue2"
+  ],
+  "author": "humorHan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-export-default-from": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@humorhan/cva": "0.0.2"
+  },
+  "dependencies": {
+    "element-ui": "2.15.7",
+    "vue": "2.6.14",
+    "vue-router": "3.5.3",
+    "vue-template-compiler": "2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

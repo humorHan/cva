@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2021-12-22 20:37:57
- * @LastEditTime: 2021-12-22 20:57:56
- * @LastEditors: your name
- * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- * @FilePath: /cva/examples/vue3/cva.config.js
- */
 module.exports = {
   /**
    * cva配置
@@ -53,7 +45,7 @@ module.exports = {
    * 如下配置参考 https://webpack.docschina.org/configuration/
    */
   entry: {
-    index: require('path').resolve(__dirname, './src/index.js'),
+    index: './src/index.js'
   },
   devServer: {
     port: 8081,

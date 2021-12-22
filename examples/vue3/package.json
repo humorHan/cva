@@ -1,0 +1,37 @@
+{
+  "name": "cva-vue3-template",
+  "version": "0.0.1",
+  "description": "cva-vue3-template",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cva serve",
+    "build": "cva build"
+  },
+  "keywords": [
+    "cva-vue3-template",
+    "webpack5",
+    "vue3"
+  ],
+  "author": "humorHan",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "element-plus": "^1.2.0-beta.6",
+    "vue": "3.2.26",
+    "vue-router": "4.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-export-default-from": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@humorhan/cva": "^0.0.2"
+  },
+  "engines": {
+    "node": "^12.20.0 || >=14.0.0"
+  }
+}
